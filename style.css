@@ -51,7 +51,18 @@
     font-weight: 400;
     padding: 10px 24px;
     background-color: #E02C6D;
+    transition: all linear .4s;
 }
+.banner_text a:hover{
+    font-size: 19px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border: 2px solid brown;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
 .banner_img img{   
     width: 556.01px;
     height: 438px;

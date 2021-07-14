@@ -1,9 +1,11 @@
+
 /* mobile devices */
 /* ____________________________ */
 
 @media only screen and (max-width:688px){
     
 /* banner section */
+/* ------------------------- */
 
     .banner_info{
         flex-direction: column;
@@ -31,6 +33,8 @@
     }
 
 /* player section  */
+/* ----------------------- */
+
 .container{
     width: 100%;
 }
@@ -46,6 +50,7 @@
 }
 
 /* footer part start  */
+/* ---------------------- */
 .footer_all{
     width: 100%;
 }
@@ -71,9 +76,9 @@
 
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-    /* .full_wrapper{
-        width: 100%;
-    } */
+    
+    /* banner section  */
+    /* --------------------------- */
     .banner_text{
         width: 275px;
         height: 138px;
@@ -94,6 +99,10 @@
     }
 
     /* players section part start  */
+    /* ___________________________________ */
+
+
+    
     .full_wrapper{
         width: 100%;
     }
