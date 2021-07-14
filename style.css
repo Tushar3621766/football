@@ -104,7 +104,17 @@
     font-weight: 400;
 }
 
-
+/* extra logo part start  */
+.logo_all{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 27px;
+    padding: 40px 0;
+    text-align: center;
+}
+.img img{
+    width: 150px;
+}
 /* footer part start  */
 
 .footer_all{

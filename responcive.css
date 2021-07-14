@@ -49,6 +49,16 @@
     justify-content: center;
 }
 
+/* extra logo part start  */
+.logo_all{
+    grid-template-columns: repeat(1, 1fr);
+    width: 484px;
+    margin: 0 auto;
+}
+.logo_all, .img{
+    width: 150px;
+}
+
 /* footer part start  */
 /* ---------------------- */
 .footer_all{
@@ -102,7 +112,7 @@
     /* ___________________________________ */
 
 
-    
+
     .full_wrapper{
         width: 100%;
     }
@@ -119,6 +129,8 @@
         align-items: center;
         justify-content: center;
     }
+
+  
 
 
 }
